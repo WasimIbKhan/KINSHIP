@@ -5,19 +5,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p1 className="title">KINSHIP</p1>
+        <a className="APPAREL">APPAREL</a>
       </header>
+      <body className="body">
+        <footer >
+          <div className="Contact">
+            <h4>Contacts</h4>
+            <p>Yahya Mannan Khan: <a>07665545788</a></p>
+            <a className="link" href="mailto:hege@example.com">hege@example.com</a>
+          </div>
+        </footer>
+      </body>
     </div>
   );
 }
