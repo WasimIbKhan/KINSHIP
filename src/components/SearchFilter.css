@@ -1,0 +1,19 @@
+.listContainer{
+    padding: 3;
+    background-color: whitesmoke;
+    width: 10%;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-block-start: 2%;
+    display: inline-block; 
+  }
+
+  .listItem {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    font-size: calc(5px + 1vmin);
+    font-family: 'Times New Roman';
+    border-bottom-color: black;
+    border-bottom-width: 10px;
+  }

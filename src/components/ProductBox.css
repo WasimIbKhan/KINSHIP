@@ -1,0 +1,15 @@
+.productContainer{
+    width: 75%;
+    height: 70%;
+    margin-left: 4%;
+    margin-block-start: 2%;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image {
+      height: 70vh;
+      width: 40%;
+  }

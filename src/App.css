@@ -1,39 +1,6 @@
 .App {
-  text-align: center;
-  background-color: #353f37;
-  flex: 1
-}
-
-
-.body {
-  background-color: #353f37;
-  min-height: 100vh;
-}
-.App-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.link {
-  color: white;
-}
-
-.title {
-  font-size: calc(20px + 4vmin);
-  font-family: 'Times New Roman';
-  color: white;
-}
-.APPAREL {
-  font-size: calc(5px + 1vmin);
-  font-family: 'Times New Roman';
-  color: white;
-}
-.Contact {
-  align-items: center;
-  color: aliceblue;
-  flex-direction: column;
   
+  background-color: #353f37;
+  flex: 1;
+  min-height: 100vh;
 }

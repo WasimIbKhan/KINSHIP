@@ -1,22 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Header from './components/Header'
+import Footer from './components/Footer'
+import SearchBar from './components/SearchBar'
+import Body from './components/Body'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p1 className="title">KINSHIP</p1>
-        <a className="APPAREL">APPAREL</a>
-      </header>
-      <body className="body">
-        <footer >
-          <div className="Contact">
-            <h4>Contacts</h4>
-            <p>Yahya Mannan Khan: <a>07665545788</a></p>
-            <a className="link" href="mailto:hege@example.com">hege@example.com</a>
-          </div>
-        </footer>
-      </body>
+      <Header />
+      <SearchBar />
+      <Body />
+      <Footer />
     </div>
   );
 }
